@@ -1,0 +1,32 @@
+* {
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+}
+
+.nav1 .div1 .style {
+    list-style-type: none;
+}
+
+.top a {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav1 .style li {
+    display: inline-block;
+}
+.nav1 {
+    background-color: darkmagenta;
+    position: sticky;
+    width: cover;
+    font-family: 'Be Vietnam', sans-serif;
+
+}
+
+.nav1 .style li a {
+    color: black;
+
+}
+
