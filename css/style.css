@@ -4,6 +4,12 @@
     padding: auto;
 }
 
+.div1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 80px;
+}
+
 .nav1 .div1 .style {
     list-style-type: none;
 }
@@ -14,11 +20,13 @@
     font-size: 30px;
 }
 
+
+
 .nav1 .style li {
     display: inline-block;
 }
 .nav1 {
-    background-color: darkmagenta;
+    background-color: purple;
     position: sticky;
     width: cover;
     font-family: 'Be Vietnam', sans-serif;
@@ -27,6 +35,39 @@
 
 .nav1 .style li a {
     color: black;
+    font-weight: 450;
+    font-size: 20px;
+    margin-left: 30px;
+    
 
 }
+
+.nav1 .style li a:hover {
+    color: crimson;
+}
+
+.nav1 .div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    font-family: 'Be Vietnam', sans-serif;
+    
+    background-size: cover;
+    padding-top: 400px;
+    padding-bottom: 900px;
+    padding-left: 500px;
+    background-image: url(../images/img.jpg);
+    display: flex;
+    background-position: left;
+}
+
+.home .Home .text span {
+    color: crimson;
+}
+
+
+
 
