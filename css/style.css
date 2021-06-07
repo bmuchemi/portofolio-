@@ -10,6 +10,10 @@
     padding: 0px 80px;
 }
 
+.nav1 .top a span {
+    color: crimson;
+}
+
 .nav1 .div1 .style {
     list-style-type: none;
 }
@@ -77,10 +81,18 @@
     padding-left: 500px;
     margin-left: 30px;
     line-height: 50px;
+    color: crimson;
 }
 
 .services {
     background-color: darkseagreen;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Be Vietnam', sans-serif; 
 
+}
+
+.services .services3 a {
+    padding-left: 500px;
+    line-height: 50px;
+    font-size: larger;
+    color: crimson;
 }
