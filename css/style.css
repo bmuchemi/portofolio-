@@ -79,6 +79,8 @@
     line-height: 50px;
 }
 
-h3 {
-    text color: crimson;
+.services {
+    background-color: darkseagreen;
+    font-family: 'Be Vietnam', sans-serif;
+
 }
