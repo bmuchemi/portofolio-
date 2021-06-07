@@ -94,3 +94,8 @@
 .home .btn:hover{
     color: white;
 }
+
+.about .aboutheader {
+    top: 80%;
+    padding-top: 250px;
+}
