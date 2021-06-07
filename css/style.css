@@ -30,7 +30,7 @@
     display: inline-block;
 }
 .nav1 {
-    background-color: purple;
+    background-color: white;
     position: sticky;
     width: cover;
     font-family: 'Be Vietnam', sans-serif;
@@ -63,9 +63,9 @@
     padding-top: 400px;
     padding-bottom: 900px;
     padding-left: 500px;
-    background-image: url(../images/img.jpg);
     display: flex;
     background-position: left;
+    background-image: url(../images/img3.jpg)
 }
 
 .home .Home .text span {
@@ -85,7 +85,7 @@
 }
 
 .services {
-    background-color: darkseagreen;
+    color: darkseagreen;
     font-family: 'Be Vietnam', sans-serif; 
 
 }
