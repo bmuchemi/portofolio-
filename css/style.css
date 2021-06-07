@@ -65,7 +65,10 @@
     padding-left: 500px;
     display: flex;
     background-position: left;
-    background-image: url(../images/img3.jpg)
+    background-image: url(../images/img3.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home .Home .text span {
