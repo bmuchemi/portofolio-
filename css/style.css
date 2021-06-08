@@ -146,7 +146,11 @@
     left: 10px;
   }
 
-.home .Services {
+  .footer {
+      background-color: rgb(25, 26, 39);
+  }
+
+.Home .Services {
     font-family: 'Be Vietnam', sans-serif;
     padding-left: 10px;
     padding-top: 100px;
@@ -161,3 +165,4 @@
     margin-top: 10px;
     font-size: 20px;
     border-radius: 15px;
+
