@@ -71,6 +71,10 @@
   background-size: cover;
 }
 
+.home .images .btn {
+    margin-bottom: 40px;
+}
+
 .home .Home .text span {
     color: crimson;
 }
@@ -95,7 +99,18 @@
     color: white;
 }
 
-.secabout {
+.home .about {
     font-family: 'Be Vietnam', sans-serif;
-    padding-left: 70px;
+    padding-left: 10px;
+    padding-top: 500px;
+    background-color: gray;
+    width: fit-content;
+    height: fit-content;
+    border: 10px solid rgb(25, 26, 39);
+    padding-top: 30px;
+    margin-right: 100px;
+    padding-right: 50px;
+    margin-bottom: 300px;
+    margin-top: 200px;
 }
+
