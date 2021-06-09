@@ -1,270 +1,277 @@
+
 * {
-    text-decoration: none;
-    margin: auto;
-    padding: auto;
+  text-decoration: none;
+  margin: auto;
+  padding: auto;
 }
 
 .div1 {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0px 80px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0px 80px;
 }
 
 .nav1 .top a span {
-    color: crimson;
+  color: crimson;
 }
 
 .nav1 .div1 .style {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .top a {
-    color: black;
-    font-weight: 600;
-    font-size: 30px;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 
 
 .nav1 .style li {
-    display: inline-block;
+  display: inline-block;
 }
 .nav1 {
-    background-color: white;
-    position: sticky;
-    width: cover;
-    font-family: 'Be Vietnam', sans-serif;
+  background-color: white;
+  position: sticky;
+  width: cover;
+  font-family: 'Be Vietnam', sans-serif;
 
 }
 
 .nav1 .style li a {
-    color: black;
-    font-weight: 450;
-    font-size: 20px;
-    margin-left: 30px;
-    
+  color: black;
+  font-weight: 450;
+  font-size: 20px;
+  margin-left: 30px;
+  
 
 }
 
 .nav1 .style li a:hover {
-    color: crimson;
+  color: crimson;
 }
 
 .nav1 .div1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .home {
-    font-family: 'Be Vietnam', sans-serif;
-    background-color: darkslategrey;
-    background-size: cover;
-    padding-top: 400px;
-    padding-bottom: 900px;
-    padding-left: 500px;
-    display: flex;
-    background-position: left;
-    background-image: url(../images/img3.jpg);
-    background-position: center;
-  background-repeat: no-repeat;
+  font-family: 'Be Vietnam', sans-serif;
+  background-color: darkslategrey;
   background-size: cover;
-  border-radius: auto;
+  padding-top: 400px;
+  padding-bottom: 900px;
+  padding-left: 500px;
+  display: flex;
+  background-position: left;
+  background-image: url(../images/img3.jpg);
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: auto;
 }
 
 .home .images .btn {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .home .Home .text span {
-    color: crimson;
+  color: crimson;
+}
+
+.home .Home .text {
+  font-size: 40px;
+}
+
+.home .Home .text .programmer {
+  font-size: 20px;
 }
 
 .home .btn {
-    position: absolute;
-    top: 99%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: crimson;
-    color: black;
-    font-size: 20px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 15px;
-  
+  position: absolute;
+  top: 99%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: crimson;
+  color: black;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+
 }
 
 .home .btn:hover{
-    color: white;
+  color: white;
 }
 
 .home .about {
-    font-family: 'Be Vietnam', sans-serif;
-    padding-left: 10px;
-    padding-top: 500px;
-    background-color: gray;
-    width: fit-content;
-    height: fit-content;
-    border: 10px solid rgb(25, 26, 39);
-    padding-top: 30px;
-    margin-right: 100px;
-    padding-right: 50px;
-    margin-bottom: 300px;
-    margin-top: 200px;
-    border-radius: 15px;
+  font-family: 'Be Vietnam', sans-serif;
+  padding-left: 10px;
+  padding-top: 500px;
+  background-color: gray;
+  width: fit-content;
+  height: fit-content;
+  border: 10px solid rgb(25, 26, 39);
+  padding-top: 30px;
+  margin-right: 100px;
+  padding-right: 50px;
+  margin-bottom: 300px;
+  margin-top: 200px;
+  border-radius: 15px;
 }
 
 
 .logo img {
-    float: left;
-    width: 50px;
-    height: 50px;
-    
-  }
+  float: left;
+  width: 50px;
+  height: 50px;
   
-  .logo h1 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-  }
+}
+
+.logo h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
 .SERVICES .heading3 {
-    font-size: larger;
+  font-size: larger;
 }
 
 .serviceslogo img {
-    float: left;
-    width: 50px;
-    height: 50px;
-    
-  }
+  float: left;
+  width: 50px;
+  height: 50px;
   
-  .serviceslogo h1 {
-    position: relative;
-    top: 10px;
-    left: 10px;
-  }
+}
+
+.serviceslogo h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
 
 .footer form input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid black;
-    border-radius: 5px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid black;
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
 
-  .footer form input[type=submit] {
-    background-color: #04AA6D;
+.footer form input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.footer .container {
+  border-radius: 5px;
+  background-color: gray;
+  padding: 20px;
+  background-size: cover;
+}
+
+.footer .contact {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  align-content: center;
+  padding-left: 20%;
+  line-height: auto;
+  background-color: gray;
+}
+
+.contactlogo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.contactlogo {
+  position: relative;
+  top: 10px;
+  left: 50px;
+  bottom: 20%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+    background: red;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+}
 
-  .footer form input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  .footer .container {
-    border-radius: 5px;
-    background-color: gray;
-    padding: 20px;
-    background-size: cover;
-  }
-
-  .footer .contact {
-    font-family: 'Be Vietnam', sans-serif;
-    font-size: 25px;
-    font-weight: bolder;
-    align-content: center;
-    padding-left: 20%;
-    line-height: auto;
-    background-color: gray;
-  }
-
-  .contactlogo img {
-    float: left;
-    width: 50px;
-    height: 50px;
-    
-  }
-  
-  .contactlogo {
-    position: relative;
-    top: 10px;
-    left: 50px;
-    bottom: 20%;
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  
-  
-  
-  .fa-facebook {
-    background: #3B5998;
+.fa-linkedin {
+    background: blue;
     color: white;
-  }
+}
 
-  .fa-youtube {
-      background: red;
-      color: white;
-  }
-  
-  .fa-linkedin {
-      background: blue;
-      color: white;
-  }
-
-  .fa-instagram {
-      background: tomato;
-      color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
+.fa-instagram {
+    background: tomato;
     color: white;
-  }
+}
 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20%;
-  }
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
 
 .Home .Services {
-    font-family: 'Be Vietnam', sans-serif;
-    padding-left: 10px;
-    padding-top: 100px;
-    background-color: gray;
-    width: fit-content;
-    height: fit-content;
-    border: 10px solid rgb(25, 26, 39);
-    padding-top: 30px;
-    margin-right: 100px;
-    padding-right: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 20px;
-    border-radius: 15px;
-
-    
+  font-family: 'Be Vietnam', sans-serif;
+  padding-left: 10px;
+  padding-top: 100px;
+  background-color: gray;
+  width: fit-content;
+  height: fit-content;
+  border: 10px solid rgb(25, 26, 39);
+  padding-top: 30px;
+  margin-right: 100px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 15px;
